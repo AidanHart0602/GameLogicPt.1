@@ -333,10 +333,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1814559718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79f677fe3e8959d45b711dab97036564, type: 3}
+  m_Script: {fileID: 11500000, guid: b6df170421b62ed4991db2b2a8aec5da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _camera: {fileID: 2144698498}
+  _cam: {fileID: 2144698498}
   _sphere: {fileID: 6851864771248299774, guid: 66f50b67e5aefa948b21c2c5a5ee2da3, type: 3}
 --- !u!1 &2144698496
 GameObject:

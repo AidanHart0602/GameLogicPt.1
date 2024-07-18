@@ -33,9 +33,7 @@ public class Player : MonoBehaviour
                         Debug.Log("Left click activated");
                         hit.collider.GetComponent<MeshRenderer>().material.color = UnityEngine.Random.ColorHSV();
                         break;
-                    case "InstantiatePlane":
-                        Instantiate(_sphere, hit.point, Quaternion.identity);
-                        break;
+
                     default:
                         Debug.Log("Not a cube");
                         break;
