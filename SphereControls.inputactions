@@ -1,0 +1,54 @@
+{
+    "name": "SphereControls",
+    "maps": [
+        {
+            "name": "Controls",
+            "id": "7e856b28-16c6-4d73-9002-fa2c84873f90",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "652f6782-a8d9-4846-b381-3dabd08136af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Attack",
+                    "type": "Button",
+                    "id": "2b85cad5-89b9-4087-9aed-691fa5f21720",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a20404e9-4349-4073-b691-cb21c380926f",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e8a08777-f598-4d3b-aa94-1959270ecd4f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
